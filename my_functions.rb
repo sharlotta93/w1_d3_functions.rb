@@ -14,8 +14,11 @@ def sum_array( numbers )
   return total
 end
 
-def find_item( houses, item )
-  for item in houses
-    return true
+def find_item( array, name )
+  for item in array
+    if item == name
+      return true
+    end
   end
+  return false
 end
