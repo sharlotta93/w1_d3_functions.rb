@@ -4,7 +4,6 @@ def add_array_lengths( array1, array2 )
 end
 
 
-
 def sum_array( numbers )
  result = 0
 
@@ -21,4 +20,9 @@ def find_item( array, name )
     end
   end
   return false
+end
+
+
+def get_first_key( hash )
+   hash.keys[0]
 end
